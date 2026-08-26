@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    // GitHub Pages SPA 리다이렉트
+    const path = window.location.pathname.replace('/tarot-app', '');
+    window.location.replace('/tarot-app/' + (path ? '?p=' + encodeURIComponent(path) : ''));
+  </script>
+</head>
+<body></body>
+</html>
