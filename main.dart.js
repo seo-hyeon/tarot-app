@@ -92269,14 +92269,14 @@ s=3
 return A.R(o.bR(),$async$yk)
 case 3:o=p.c
 if(o==null){s=1
-break}o=A.qn(o,!1,t.No)
+break}A.hZ(o).i4("/board",null)
+o=p.c
+o.toString
+o=A.qn(o,!1,t.No)
 n=o.b&&o.f.atW()
 o.c[o.d]=new A.hj(b,n)
 o.r=null
 o.a5()
-o=p.c
-o.toString
-A.hZ(o).i4("/board",null)
 case 1:return A.N(q,r)}})
 return A.O($async$yk,r)},
 H(a){var s,r,q=this,p=null,o=A.qn(a,!0,t.No),n=o.gan9(),m=B.c2.h(0,o.a),l=o.d,k=m.c,j=k[l],i=A.L(a).ax,h=A.mo(p,p,A.Md(p,p,B.of,p,p,new A.ams(a),p,p,p),B.Zh),g=i.d
